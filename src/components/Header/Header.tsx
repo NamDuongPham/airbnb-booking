@@ -1,5 +1,4 @@
-import NavBar from "../Navbar/NavBar";
-
+import NavBar from "../../modules/Navbar/Navbar";
 function Header() {
   return (
     <div className="w-full bg-white z-10 shadow-sm mb-3">
