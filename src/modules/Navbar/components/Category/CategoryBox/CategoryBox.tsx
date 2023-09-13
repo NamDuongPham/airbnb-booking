@@ -1,11 +1,12 @@
+// import { useState } from "react";
 import { IconType } from "react-icons";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 
 interface ICategoryProps {
   icon: IconType;
   label: string;
-  selected?: boolean;
   description: string;
+  selected?: boolean;
 }
 
 function CategoryBox(props: ICategoryProps) {
@@ -25,28 +26,34 @@ function CategoryBox(props: ICategoryProps) {
       searchParams.delete("category");
     }
 
+    // setSelectd(true);
     navigate(`${location.pathname}?${searchParams.toString()}`);
   };
   return (
-    <div
-      className={`
+    <>
+     
+        <div
+          onClick={handleClickHandler}
+          className={`
       flex 
       flex-col 
       items-center 
       justify-center 
       gap-2
       p-3
-      border-b-2
       hover:text-neutral-800
       transition
       cursor-pointer
-      ${selected ? "border-b-neutral-800" : "border-transparent"}
-      ${selected ? "text-neutral-800" : "text-neutral-500"}
+      
+      ${selected ? "text-[#de3151]" : "text-neutral-500"}
+      
     `}
-    >
-      <Icon size={26}  onClick={handleClickHandler}/>
-      <div className="font-medium text-sm">{label}</div>
-    </div>
+        >
+          <Icon size={26} />
+          <div className="font-medium text-sm ">{label}</div>
+        </div>
+      
+    </>
   );
 }
 

@@ -7,10 +7,10 @@ interface IProps {
 }
 function ModalLogin({ isOpen, setIsOpen }: IProps) {
   return (
-    <ModalCustom title='Log in or sign up' isOpen={isOpen} setIsOpen={setIsOpen} footer={<></>}>
+    <ModalCustom title='LOG IN - ĐĂNG NHẬP' isOpen={isOpen} setIsOpen={setIsOpen} footer={<></>}>
       <>
         <Login setIsOpen={setIsOpen} />
-        <div style={{ height: 600 }}></div>
+        <div style={{ height: 50 }}></div>
       </>
     </ModalCustom>
   );

@@ -2,6 +2,7 @@ import { createApi } from '@reduxjs/toolkit/query/react';
 import { baseQueryWithRoomService } from "./baseQuery";
 import { Room } from '../types/room';
 
+
 export const typeRoomsApi = createApi({
   reducerPath: "typeRoomsApi",
   baseQuery: baseQueryWithRoomService,
@@ -12,7 +13,10 @@ export const typeRoomsApi = createApi({
     getTypeRoomById: builder.query({
       query: (id) => `typeRooms/${id}`,
     }),
+    getHostByIdTyperoom: builder.query({
+      query: (id) => `typeRooms/${id}?_expand=host`,
+    }),
   }),
 });
 
-export const {useGetTypeRoomsQuery,useGetTypeRoomByIdQuery} = typeRoomsApi;
+export const {useGetTypeRoomsQuery,useGetTypeRoomByIdQuery,useGetHostByIdTyperoomQuery} = typeRoomsApi;
