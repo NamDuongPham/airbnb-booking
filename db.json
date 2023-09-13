@@ -1,0 +1,2263 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$h7aLZdzOR0UOkBUBepbf9Ou8FTv4AnVu6Q9UPzNp3h4cJ5Qt35LSa",
+      "id": 1
+    },
+    {
+      "email": "olivier1@gmail.com",
+      "password": "$2a$10$nZ0lZSzu0KtrUhZvcUeJGOsdI9mSUsV4FBigqFUPWQdF75xhIm0Me",
+      "id": 2
+    },
+    {
+      "email": "123@gmail.com",
+      "password": "$2a$10$aSYkIvRQsuezMLVv9AnxqeCjSeU631TUWX7j0Qp60PE82meevHuGO",
+      "id": 3
+    },
+    {
+      "email": "abc@mail.com",
+      "password": "$2a$10$eKPPrimG/zvFDW/4RLI7S.gHamevbUEcJzvr/wE1ifZhfW0bo2aKa",
+      "id": 4
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "userId": 3,
+      "name": "Nguyễn Văn Thái",
+      "address": "Đà Nẵng city",
+      "phone": "0123456789"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "name": "Nguyễn Văn A",
+      "address": "Hà Nội city",
+      "phone": "0131233789"
+    },
+    {
+      "id": 3,
+      "email": "123@gmail.com",
+      "name": "Nguyễn Văn C",
+      "address": "237 pvc",
+      "phone": "01313123"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "name": "Nam DƯơng",
+      "phone": "0123456",
+      "createdAt": 1693927474861,
+      "updatedAt": 1693927474861,
+      "address": "237 pvbc"
+    }
+  ],
+  "hosts": [
+    {
+      "id": 1,
+      "name": "Amellia",
+      "image": "https://a0.muscache.com/im/pictures/user/7fb0732b-4fd1-44cf-8600-46deb28ce3cd.jpg?im_w=240",
+      "reviews": 45,
+      "work": "Marketing",
+      "location": "England, United Kingdom",
+      "rating": 4,
+      "bio": "Well I like travelling. I am travelling frequently in the himalayas since 2010. I am a cinematographer, Video editor by profession. I used to be a freelance trekking guide and a photographer in the various parts of the hiamlayan mountain region. Currently living in Jibhi, Himachal pradesh. We can talk about himalayas, it's various ranges, high altitude trekking in the himalayan region, adventure Photography, cinematography, film making etc",
+      "experience": "5 year hosting"
+    },
+    {
+      "id": 2,
+      "name": "Carmela",
+      "image": "https://a0.muscache.com/im/pictures/user/acd97bc9-42f7-45cf-84d4-076add17e41a.jpg?im_w=240",
+      "reviews": 18,
+      "work": "Making natural body creams",
+      "location": "Turin, Italy",
+      "rating": 4.94,
+      "bio": "Here I am on this adventure! I've always liked sharing my spaces with friends or relatives and so I thought to myself why not make it an activity? I'm originally from a small town near Reggio Calabria but Turin has been my city for 30 years now and I'm really enthusiastic about it. I live with my son Emanuele and my super big cat Whisky. I enjoy cooking and always experimenting with new dishes and it seems that my guests appreciate it a lot. When I can afford it, I love to travel, but I don't disdain a good book or a show and Turin really offers a lot. From the Jazz festival to classical music, to the festival for the very young. I therefore believe that I can satisfy the needs of my guests by offering them friendliness and maximum comfort.",
+      "experience": "1 month hosting"
+    },
+    {
+      "id": 3,
+      "name": "Romain",
+      "image": "https://a0.muscache.com/im/pictures/user/b97574ea-6f27-4ed7-b266-2eb4f21dbfdb.jpg?im_w=240",
+      "reviews": 434,
+      "work": "Developer",
+      "location": "Nantes, France",
+      "rating": 4,
+      "bio": "Artist and communication/design consultant, I was born and raised in France. I love strolling the streets of Paris, which led me to compile walking tours based on my best urban discoveries.I also love meeting visitors, welcoming them comfortably, guiding them and helping them enjoy the best of Paris.",
+      "experience": "1 year hosting"
+    },
+    {
+      "id": 4,
+      "name": "Doris",
+      "reviews": 19,
+      "work": "Interior Designer",
+      "location": "Milan, Italy",
+      "image": "https://a0.muscache.com/im/pictures/user/b86877ea-0ba2-4019-912f-e08e6f9631ab.jpg?im_w=240",
+      "rating": 4.87,
+      "bio": "Hi everybody, this is my first time on Airbnb as an host, but in my life I've always loved to meet new people, discover new cultures and share experiences. I love to cook, and as cooking is a form of love it's beautiful when shared. If you come to my place I'll be pleased to share our free time together and why not a good meal. I also love to read books, go to museums or art exhibitions, listen to music (techno/house/funky/pop/rock) and to watch TV series, yes I'm kind of addicted to them. I like to go out, to be with my friends, go to parties or dance, but I also like to share a good glass of wine or a well made gin tonic ;) If you want to find out more about me come to my place and just ask! :D",
+      "experience": "4 year hosting"
+    }
+  ],
+  "typeRooms": [
+    {
+      "id": 1,
+      "hostId": 1,
+      "name": "Superior Room Single",
+      "rating": 4,
+      "description": "As our smallest rooms, the Superior Room Single are suited for single occupancy or short-stay double occupancy as they have limited space and storage.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 299,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-36036989/original/68a36816-5dd7-4df5-bdc4-d9f3ed1d9151.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-36036989/original/51c55fa7-e319-4428-8f0b-994dded18fbc.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-36036989/original/9da84d76-223d-43cc-8b90-0227168d7dc2.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-36036989/original/00dd120d-4aaa-40df-908c-3625aac92cc0.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-36036989/original/d0d01628-5b50-47c4-b19e-bdd794372f23.jpeg?im_w=720"
+      ],
+      "category": "Camping",
+      "persons": 2,
+      "reviewsCount": 45,
+      "location": "London, Vương quốc Anh",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 double bed"
+        },
+        {
+          "roomSize": "Room size: 25 m²/269 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 2,
+      "hostId": 2,
+      "name": "Mansarda Open Space",
+      "rating": 4.94,
+      "description": "Beautiful and bright attic studio of 50sqm just renovated, sixth floor with lift up to 5th.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 3,
+      "price": 349,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/5a4b057e-20c0-4d08-b5a5-bb8fb29f4a77.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/9ab91647-d76a-42df-87a6-a2687c7c26a3.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/2d867c75-c88a-4fc1-98f4-a03f69d80d9c.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/77f3ce9e-1445-4f99-98a0-5a127b50f93e.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/c9b78bf1-1678-4e7e-9c88-e31fb1267038.jpg?im_w=720"
+      ],
+      "category": "Modern",
+      "persons": 2,
+      "reviewsCount": 18,
+      "location": "Torino, Ý",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 double bed"
+        },
+        {
+          "roomSize": "Room size: 25 m²/269 ft²"
+        },
+        {
+          "view": "Sky"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "Sky",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 3,
+      "hostId": 3,
+      "name": "Deluxe Room Single",
+      "rating": 4,
+      "description": "Our Deluxe Room Single also provides views over landscaped gardens. It has a seating area, digital safe, minibar and luxurious duck down bedding. This room can be configured with either 2 single beds or zip and linked to provide a large double bed.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 3,
+      "price": 489,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-858989038767200002/original/74ae2fe6-c665-4f71-b081-452effbaa678.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-858989038767200002/original/122c2ea1-def5-4b01-96bc-71368a1b3de6.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-858989038767200002/original/fc7103a0-ff82-4e74-94db-f2cbb7ccf984.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-858989038767200002/original/f0800485-e823-4404-a055-bd6a98176df6.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-858989038767200002/original/eee5a39d-0398-40cb-a2d6-ff3a4ae3b591.png?im_w=720"
+      ],
+      "category": "Modern",
+      "persons": 2,
+      "reviewsCount": 434,
+      "location": "Nantes, Pháp",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "roomSize": "Room size: 25 m²/269 ft²"
+        },
+        {
+          "bed": "1 double bed"
+        },
+        {
+          "shower": "Shower"
+        },
+        {
+          "view": "Mountain"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 4,
+      "hostId": 4,
+      "name": "Suite Room",
+      "rating": 4.87,
+      "description": "Our Suite Room has a seating area, ample storage, digital safe, minibar and luxurious duck down bedding. This room can also be configured with an extra roll-away bed for families of 3.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 5,
+      "price": 519,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://www.lottehotel.com/content/dam/lotte-hotel/lotte/hanoi/accommodation/suite/deluxesuite/180921-3-2000-roo-LTHA.jpg.thumb.1920.1920.jpg",
+        "https://www.lottehotel.com/content/dam/lotte-hotel/lotte/hanoi/accommodation/suite/deluxesuite/180921-1-2000-roo-LTHA.jpg.thumb.1920.1920.jpg",
+        "https://www.lottehotel.com/content/dam/lotte-hotel/lotte/hanoi/accommodation/suite/deluxesuite/180921-4-2000-roo-LTHA.jpg.thumb.1920.1920.jpg",
+        "https://www.lottehotel.com/content/dam/lotte-hotel/lotte/hanoi/accommodation/suite/deluxesuite/180921-2-2000-roo-LTHA.jpg.thumb.1920.1920.jpg",
+        "https://www.lottehotel.com/content/dam/lotte-hotel/lotte/hanoi/accommodation/suite/deluxesuite/180921-1-2000-roo-LTHA.jpg.thumb.768.768.jpg",
+        "https://www.lottehotel.com/content/dam/lotte-hotel/lotte/hanoi/accommodation/suite/deluxesuite/180921-3-2000-roo-LTHA.jpg.thumb.768.768.jpg"
+      ],
+      "category": "Modern",
+      "persons": 2,
+      "reviewsCount": 19,
+      "location": "Milan, Ý",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 double bed"
+        },
+        {
+          "roomSize": "Room size: 25 m²/269 ft²"
+        },
+        {
+          "view": "Sea"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "Sea",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 5,
+      "hostId": 1,
+      "name": "Luxury Suite Room",
+      "rating": 4.94,
+      "description": "Our Luxury Suite Room also provides views over landscaped gardens and views of the top level. It has ample storage, a seating area, digital safe, minibar and luxurious duck down bedding.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 5,
+      "price": 599,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://s7d2.scene7.com/is/image/ritzcarlton/RCPHILA_00118?$LargeViewport100pct$",
+        "https://s7d2.scene7.com/is/image/ritzcarlton/RCPHILA_00112?$MedViewport100pct$",
+        "https://s7d2.scene7.com/is/image/ritzcarlton/RCPHILA_00118?$MedViewport100pct$",
+        "https://s7d2.scene7.com/is/image/ritzcarlton/RCPHILA_00189?$MedViewport100pct$",
+        "https://s7d2.scene7.com/is/image/ritzcarlton/50524191-Luxury%20Suite%20Top%20LUXR?$MedViewport100pct$",
+        "https://s7d2.scene7.com/is/image/ritzcarlton/50524190-Luxury%20Suite%202%20LUXR?$MedViewport100pct$"
+      ],
+      "category": "Modern",
+      "persons": 2,
+      "reviewsCount": 17,
+      "location": "Lyon, Pháp",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 double bed"
+        },
+        {
+          "roomSize": "Room size: 25 m²/269 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "Mountains view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 6,
+      "hostId": 2,
+      "name": "Superior Room Single",
+      "rating": 4.96,
+      "description": "As our smallest rooms, the Superior Room Single is suited for single occupancy or short-stay double occupancy as they have limited space and storage.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 299,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-701365359973700294/original/d8cad3f0-68b7-4c6e-8423-18453c4fbe30.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-701365359973700294/original/0b662f87-02f0-4bc6-baa8-3dfa1581cb42.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-701365359973700294/original/0b662f87-02f0-4bc6-baa8-3dfa1581cb42.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-701365359973700294/original/be9867b2-d50f-4e00-88f0-c0b861a927b2.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-701365359973700294/original/4a373590-e04c-4532-81f2-071aeb5f4817.jpeg?im_w=720"
+      ],
+      "category": "Countryside",
+      "persons": 2,
+      "reviewsCount": 68,
+      "location": "Lindfield, Vương quốc Anh",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 single bed"
+        },
+        {
+          "roomSize": "Room size: 15 m²/161 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 7,
+      "hostId": 2,
+      "name": "Deluxe Room Double",
+      "rating": 4.96,
+      "description": "Our Deluxe Room Double features a comfortable space for double occupancy, elegant decor, and modern amenities.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 299,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-616473242380750899/original/dd616f51-7e90-4b35-9777-10ebe846d4a6.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-616473242380750899/original/dd616f51-7e90-4b35-9777-10ebe846d4a6.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-616473242380750899/original/dabda650-52b8-4964-9f0d-f82ac7ae184f.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-616473242380750899/original/dd616f51-7e90-4b35-9777-10ebe846d4a6.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-616473242380750899/original/dd616f51-7e90-4b35-9777-10ebe846d4a6.jpeg?im_w=720"
+      ],
+      "category": "Castles",
+      "persons": 2,
+      "reviewsCount": 68,
+      "location": "Palermo, Ý",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 single bed"
+        },
+        {
+          "roomSize": "Room size: 15 m²/161 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 9,
+      "hostId": 4,
+      "name": "Premium Suite",
+      "rating": 4.96,
+      "description": "As our smallest rooms, the Superior Room Single is suited for single occupancy or short-stay double occupancy as they have limited space and storage.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 299,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/2a3ac794-6c95-4211-95a5-2b8fc24f6620.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-49441749/original/ec49d6b5-b1f5-427c-9a82-e351b303bb9b.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-49441749/original/842c4cb7-d04b-40f2-9420-f6bcfde5489c.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/472ce7a5-2c5d-4a61-a81a-a46f92ea1740.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/472ce7a5-2c5d-4a61-a81a-a46f92ea1740.jpg?im_w=720"
+      ],
+      "category": "Arctic",
+      "persons": 2,
+      "reviewsCount": 122,
+      "location": "Barcelona, Tây Ban Nha",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 king bed, 1 sofa bed"
+        },
+        {
+          "roomSize": "Room size: 60 m²/645 ft²"
+        },
+        {
+          "view": "City skyline view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Jacuzzi"
+        }
+      ],
+      "view": "City skyline view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 10,
+      "hostId": 1,
+      "name": "Executive Suite",
+      "rating": 4.2,
+      "description": "Our Executive Suite is ideal for business travelers, featuring a private workspace and premium amenities.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 499,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-52086975/original/017465f1-e5b3-43ff-8d92-facd828f8fc2.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/65338c9e-1127-42b9-8660-fd84c00ae427.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-52086975/original/8d608345-ebc4-458a-b934-a6426e4e6d14.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-52086975/original/77cb0027-010d-41d2-9702-2cc9d90a6407.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-52086975/original/77cb0027-010d-41d2-9702-2cc9d90a6407.jpeg?im_w=7200"
+      ],
+      "category": "Arctic",
+      "persons": 10,
+      "reviewsCount": 0,
+      "location": "Wirobrajan, Indonesia",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 king bed"
+        },
+        {
+          "roomSize": "Room size: 30 m²/322 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "workspace": "Private workspace"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+   
+    {
+      "id": 12,
+      "hostId": 3,
+      "name": "Close to Norreport 306",
+      "rating": 4.58,
+      "description": "Our comfortable Standard Room is perfect for budget-conscious travelers, providing essential amenities and a cozy ambiance.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 103,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/645d560f-d2f7-420c-bba8-4654617e4cc2.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/e272a4dd-e677-4fa3-ac96-ffcfd895b728.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f33f99ab-d9f7-41bb-9ded-39d7202c43be.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-842447525774130356/original/83760692-2bcb-4829-b2de-f84f33a73a0e.jpeg?im_w=720"
+      ],
+      "category": "Modern",
+      "persons": 1,
+      "reviewsCount": 191,
+      "location": "Copenhagen, Đan Mạch",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 queen bed"
+        },
+        {
+          "roomSize": "Room size: 18 m²/194 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 13,
+      "hostId": 4,
+      "name": "Private Garden Level Guest Suite",
+      "rating": 4.84,
+      "description": "Private access to the entire basement, including a bedroom, kitchen/ laundry room, & bathroom.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 145,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-883326065184324760/original/3986b063-eaa2-4d33-a7bb-a637d09204be.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-883326065184324760/original/7ee48061-5479-40de-9c32-9fe808009e01.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-883326065184324760/original/5b636a88-8680-41e0-8003-db0cf9bec216.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-883326065184324760/original/f92ba18c-78b5-4149-930f-ce76d76028a5.jpeg?im_w=720"
+      ],
+      "category": "Modern",
+      "location": "Seddon, Úc",
+      "persons": 3,
+      "reviewsCount": 19,
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 queen bed"
+        },
+        {
+          "roomSize": "Room size: 18 m²/194 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 14,
+      "hostId": 1,
+      "name": "Standard Room",
+      "rating": 4.47,
+      "description": "Our comfortable Standard Room is perfect for budget-conscious travelers, providing essential amenities and a cozy ambiance.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 199,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-45076629/original/0d4e80ac-b1b4-44d1-ab2f-10c67c1e8e2a.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-45076629/original/8bc60fab-17e9-4119-975c-4d748a260e55.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-45076629/original/8906b4db-21fd-4bf3-8619-0492981c4ea6.png?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-738938787052681216/original/2ab5be30-f8a2-4bb3-9b5a-a3de045a11f8.jpeg?im_w=720"
+      ],
+      "category": "Castles",
+      "persons": 2,
+      "reviewsCount": 106,
+      "location": "Zanzibar, Tanzania",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 queen bed"
+        },
+        {
+          "roomSize": "Room size: 18 m²/194 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 15,
+      "hostId": 1,
+      "name": "Seom Studio In Seogwipo #7",
+      "rating": 4.94,
+      "description": "Enjoy our bright and cozy studio. A beautiful coast road is 5 mins away. You’ll love a morning walk there.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 199,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-51098640/original/721e1983-62d4-43e8-813a-bceb96025216.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-51098640/original/8c88ac45-0e65-46c5-8001-84171392f11a.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-51098640/original/0cb9a682-f6b9-42e9-99a1-54bee8335630.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-51098640/original/f6c35ca4-0f3b-44d6-9f9a-ce82549e4dae.jpeg?im_w=720"
+      ],
+      "category": "Lux",
+      "location": "Seogwipo-si, Hàn Quốc",
+      "persons": 2,
+      "reviewsCount": 200,
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 queen bed"
+        },
+        {
+          "roomSize": "Room size: 18 m²/194 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 16,
+      "hostId": 2,
+      "name": "single room near the airport",
+      "rating": 3.5,
+      "description": "Bright and quiet single room in a recently renovated 2-bedroom apartment with modern finishes in a quiet neighborhood in the town of Barajas",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 199,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/9605b3a6-6a90-4f46-a705-54df7a0b6402.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/3132eedb-0dc4-489c-996d-14fcd7cd76f9.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/ce71f436-ae49-49c8-8a78-543dbf541a2c.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/5255b14f-093e-4466-8d75-5380ffe54ad6.jpg?im_w=720"
+      ],
+      "category": "Lux",
+      "persons": 1,
+      "reviewsCount": 37,
+      "location": "Madrid, Tây Ban Nha",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 queen bed"
+        },
+        {
+          "roomSize": "Room size: 18 m²/194 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 17,
+      "hostId": 2,
+      "name": "Generator - Bed in 8 Bed Dorm",
+      "rating": 4.41,
+      "description": "Generator Copenhagen offers a unique experience for social butterflies. With Scandinavian food served all-you-can-eat style at the restaurant, there’s a range of indulgent dishes to choose from.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 45,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-566028065891205462/original/8272f279-b785-4533-b9e5-b400a37d6a52.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-566028065891205462/original/0944d9a9-00bb-4607-a8c8-e10088787101.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-566028065891205462/original/2cb8d7cd-88e8-4853-b295-6b0c914835b7.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-566028065891205462/original/807d63db-ab4e-4e45-a715-4ac37af41fbc.jpeg?im_w=720"
+      ],
+      "category": "Lux",
+      "persons": 1,
+      "reviewsCount": 309,
+      "location": "Copenhagen, Đan Mạch",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 queen bed"
+        },
+        {
+          "roomSize": "Room size: 18 m²/194 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 18,
+      "hostId": 3,
+      "name": "Quiet private room.",
+      "rating": 4.91,
+      "description": "Our house is located on the way to Compostela in a very quiet location at the gates of Limoges and close to the airport.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 48,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-754944155491608444/original/29df9205-969b-4b16-875a-dde8c681133c.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-754944155491608444/original/6a1770d7-8875-4d6d-992d-c0ee91c8a808.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-754944155491608444/original/52c2deb7-e5a1-496b-866d-385084f9332a.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-754944155491608444/original/891fa218-8089-40c2-88a7-5d6c6990a36f.jpeg?im_w=720"
+      ],
+      "category": "Desert",
+      "persons": 2,
+      "reviewsCount": 22,
+      "location": "Mérignac, Pháp",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 queen bed"
+        },
+        {
+          "roomSize": "Room size: 18 m²/194 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 19,
+      "hostId": 3,
+      "name": "1Min Walk to the Beach - Private Pool Villa 1BR",
+      "rating": 4.85,
+      "description": "This modern tropical design and the garden landscape will complete your holiday and memories in Bali. Knowing that at the end of every day you have a comfortable home away from home awaiting you.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 162,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-813393488435739494/original/accb7762-7a8e-4fcf-b160-81d8dd591195.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-813393488435739494/original/10436361-50f8-486a-bc0b-90b70c592e4d.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-813393488435739494/original/21fdd4c4-064e-4869-ac09-8c1c02a432a1.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-813393488435739494/original/23001000-2065-4a47-a652-c16527c28625.jpeg?im_w=720"
+      ],
+      "category": "Modern",
+      "persons": 2,
+      "reviewsCount": 147,
+      "location": "Kuta Utara, Indonesia",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 queen bed"
+        },
+        {
+          "roomSize": "Room size: 18 m²/194 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 20,
+      "hostId": 2,
+      "name": "Studio 25m² historic center Near shops",
+      "rating": 4.7,
+      "description": "Charming studio of 25 m2, completely renovated, located at the very beginning of rue de Bayeux (district of small butchers, 2 minutes from the historic and pedestrian centre), in a quiet and private courtyard.",
+      "stars": {
+        "service": 5,
+        "room": 4,
+        "food": 4.24,
+        "cleanness": 4.48
+      },
+      "maxGuest": 2,
+      "price": 72,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-633333441407643184/original/0c4914d4-18bc-4a1c-8c4d-19c48ebed853.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-633333441407643184/original/ff4a773c-cc32-4080-9ec5-837d5ceb3861.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-633333441407643184/original/898bf2ec-0dde-4dd1-8306-cb4d017ef3d6.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-633333441407643184/original/6219202f-34c8-406c-9ec1-b6185bf6dd44.jpeg?im_w=720"
+      ],
+      "category": "Lux",
+      "persons": 2,
+      "reviewsCount": 115,
+      "location": "Saint-Ouen, Pháp",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 queen bed"
+        },
+        {
+          "roomSize": "Room size: 18 m²/194 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 21,
+      "hostId": 1,
+      "name": "Cozy Paris like home 1 person Hotel",
+      "rating": 4.63,
+      "description": "The Pierre Nicole hotel is ready to welcome you for your professional, romantic or tourist stays.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.84
+      },
+      "maxGuest": 2,
+      "price": 136,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/7c6f21e3-d2f8-4d99-bb46-8cdce7e9ffb3.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/919eddd4-8780-4e1f-9868-ddb0d50213c3.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/aeb6f702-caa9-4384-b1e4-701200551189.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/a3ccb7c0-d86b-4938-9daf-c71a41c94688.jpg?im_w=720"
+      ],
+      "category": "Lux",
+      "persons": 1,
+      "reviewsCount": 99,
+      "location": "Paris, Pháp",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 queen bed"
+        },
+        {
+          "roomSize": "Room size: 18 m²/194 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 22,
+      "hostId": 1,
+      "name": "Casa Iris",
+      "rating": 4.85,
+      "description": "The apartment is located in the center of Varenna, in front of Villa Cipressi. In the immediate vicinity there are shops, bars and restaurants. In 10 minutes on foot you can reach the train station and the station where the ferries leave for visiting the whole of Lake Como.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 333,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-877988122995843589/original/85f5726b-24de-4b11-8966-89b2aeac1878.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-877988122995843589/original/abbf953a-2026-4f83-aa3f-c9cc0324b6ed.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-877988122995843589/original/0cdd3a18-70c2-4dc5-a2ad-7f815ca56a4a.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-877988122995843589/original/44e6c328-639e-4097-943f-872c2f3f6e55.jpeg?im_w=720"
+      ],
+      "category": "Lux",
+      "persons": 5,
+      "reviewsCount": 13,
+      "location": "Perledo, Ý",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 queen bed"
+        },
+        {
+          "roomSize": "Room size: 18 m²/194 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 23,
+      "hostId": 4,
+      "name": "Convenient room in Modern house",
+      "rating": 5,
+      "description": "Our place is great for students, solo adventurers, couples or business travellers. It's an affordable place to stay while exploring, studying or working in Sydney. Your family will be close to everything when you stay at this centrally located place.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 64,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-932870079956898878/original/4b5b0811-779e-482a-a925-50cb93197da0.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-932870079956898878/original/cd6c8a74-cf83-4739-927c-64233a605b9f.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-932870079956898878/original/10ba29e2-45c9-4ac0-8696-cff87b823666.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-932870079956898878/original/72636c3c-f718-4eb6-8300-a30d9c3595d2.jpeg?im_w=720"
+      ],
+      "category": "Barns",
+      "location": "Redfern, Úc",
+      "persons": 1,
+      "reviewsCount": 5,
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 queen bed"
+        },
+        {
+          "roomSize": "Room size: 18 m²/194 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 24,
+      "hostId": 2,
+      "name": "Private room&bath Amazing View in Quirky Townhouse",
+      "rating": 4.98,
+      "description": "Surroundings so green you will forget you’re in the city. The townhouse is 8 mins walk from the train station and 2 stops from the city (Argyle Street) 3 from Glasgow Central Station which makes it the perfect spot to explore.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 114,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-623268623892733893/original/c46afe33-a49c-4201-af43-9623f74434cc.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-623268623892733893/original/529a0770-2868-456f-8eb9-16d1a47a8620.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-623268623892733893/original/7d73e2b4-2cf9-4de2-bb58-d4523df2ed85.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-623268623892733893/original/0ffc9d16-022d-4f44-800b-5bb0bc8373de.jpeg?im_w=720"
+      ],
+      "category": "Lux",
+      "persons": 2,
+      "reviewsCount": 61,
+      "location": "London, Vương quốc Anh",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 queen bed"
+        },
+        {
+          "roomSize": "Room size: 18 m²/194 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 25,
+      "hostId": 3,
+      "name": "Walk around Seminyak Petitenget from 1BR PoolVilla",
+      "rating": 4.86,
+      "description": "Our comfortable Standard Room is perfect for budget-conscious travelers, providing essential amenities and a cozy ambiance.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 127,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/1812a85f-0c8f-4b73-8bc4-5e78ce927a20.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/8fe2831a-18a8-4645-a636-8d23ab68f630.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f142bf5e-64ac-44a1-8acb-e05c66e95922.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/6bba2a40-73ff-4424-89f2-a832944911c8.jpg?im_w=720"
+      ],
+      "category": "Modern",
+      "persons": 2,
+      "reviewsCount": 87,
+      "location": "Umalas, Indonesia",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 queen bed"
+        },
+        {
+          "roomSize": "Room size: 18 m²/194 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 26,
+      "hostId": 1,
+      "name": "Gold Bee centre paris",
+      "rating": 4.86,
+      "description": "This studio is inside a very peaceful garden. There are 2 security door. There is cafe machine. There is washing machine. And there is a sofa bed for 2 people.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 158,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-954308833417956705/original/27b8ed9e-d110-459a-b5f9-d1f9fcfb31df.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-954308833417956705/original/548b6642-c38e-406f-bd21-214d2f5d5610.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-954308833417956705/original/efae7408-18cd-4c12-83b9-07d04a99bfbf.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-954308833417956705/original/1539b405-08f0-43cf-9d08-a5c7e3faef5e.jpeg?im_w=720"
+      ],
+      "category": "Lux",
+      "persons": 2,
+      "reviewsCount": 0,
+      "location": "Paris, Pháp",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 queen bed"
+        },
+        {
+          "roomSize": "Room size: 18 m²/194 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 27,
+      "hostId": 3,
+      "name": "Bedrooms and private terrace at ULB/Delta",
+      "rating": 4.65,
+      "description": "Dreaming of having your private room that opens onto a private terrace where you can take a few steps and lie down? A quiet place in a student area with a multitude of shops, restaurants, bars and public transport? You got it, you'll be with us.",
+      "stars": {
+        "service": 4.6,
+        "room": 4,
+        "food": 4.4,
+        "cleanness": 4.8
+      },
+      "maxGuest": 2,
+      "price": 74,
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "12:00",
+      "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-41867752/original/fa79e5b1-5195-4bd3-b46d-4700d6cec795.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-41867752/original/01075350-58bb-4473-bf8f-cf38e2b9b043.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-41867752/original/654ab44d-fc94-44c9-8f2d-7e8c2ae4bb9d.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-41867752/original/034816e0-adcc-477f-94c8-19e3b88875bb.jpeg?im_w=720"
+      ],
+      "category": "Barns",
+      "persons": 1,
+      "reviewsCount": 31,
+      "location": "Uccle, Bỉ",
+      "utilities": [
+        {
+          "wifi": "Free Wi-Fi"
+        },
+        {
+          "bed": "1 queen bed"
+        },
+        {
+          "roomSize": "Room size: 18 m²/194 ft²"
+        },
+        {
+          "view": "City view"
+        },
+        {
+          "smoking": "Non-smoking"
+        },
+        {
+          "shower": "Shower"
+        }
+      ],
+      "view": "City view",
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "hostid": 1,
+      "name": "101",
+      "typeRoomId": 1,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 2,
+      "hostid": 3,
+      "name": "102",
+      "typeRoomId": 1,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 3,
+      "hostid": 1,
+      "name": "103",
+      "typeRoomId": 1,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 4,
+      "hostid": 2,
+      "name": "104",
+      "typeRoomId": 1,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 5,
+      "hostid": 1,
+      "name": "105",
+      "typeRoomId": 1,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 6,
+      "hostid": 2,
+      "name": "201",
+      "typeRoomId": 2,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 7,
+      "hostid": 2,
+      "name": "202",
+      "typeRoomId": 2,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 8,
+      "hostid": 2,
+      "name": "203",
+      "typeRoomId": 2,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 9,
+      "hostid": 2,
+      "name": "204",
+      "typeRoomId": 2,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 10,
+      "hostid": 2,
+      "name": "106",
+      "typeRoomId": 2,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 11,
+      "name": "301",
+      "hostid": 3,
+      "typeRoomId": 3,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 12,
+      "name": "302",
+      "hostid": 3,
+      "typeRoomId": 3,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 13,
+      "name": "303",
+      "hostid": 3,
+      "typeRoomId": 3,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 14,
+      "name": "304",
+      "hostid": 3,
+      "typeRoomId": 3,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 15,
+      "name": "306",
+      "hostid": 3,
+      "typeRoomId": 3,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 16,
+      "name": "401",
+      "hostid": 4,
+      "typeRoomId": 4,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 17,
+      "name": "402",
+      "hostid": 4,
+      "typeRoomId": 4,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 18,
+      "name": "403",
+      "hostid": 4,
+      "typeRoomId": 4,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 19,
+      "name": "404",
+      "hostid": 4,
+      "typeRoomId": 4,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 20,
+      "name": "406",
+      "hostid": 4,
+      "typeRoomId": 4,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 21,
+      "name": "501",
+      "hostid": 4,
+      "typeRoomId": 5,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 22,
+      "name": "502",
+      "hostid": 4,
+      "typeRoomId": 5,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 23,
+      "name": "503",
+      "hostid": 4,
+      "typeRoomId": 5,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 24,
+      "name": "504",
+      "hostid": 4,
+      "typeRoomId": 5,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "id": 25,
+      "name": "506",
+      "hostid": 4,
+      "typeRoomId": 5,
+      "createdAt": 1631092999151,
+      "updatedAt": 1631093012330
+    },
+    {
+      "name": "507",
+      "hostid": 4,
+      "typeRoomId": 5,
+      "createdAt": 1631714526983,
+      "updatedAt": 1631714526983,
+      "id": 26
+    },
+    {
+      "name": "175",
+      "hostid": 3,
+      "typeRoomId": 3,
+      "rating": 5,
+      "createdAt": 1632148312843,
+      "updatedAt": 1632148312843,
+      "id": 27
+    }
+  ],
+  "comments": [
+    {
+      "typeRoomId": 1,
+      "userId": 4,
+      "rating": 4,
+      "title": "very good!",
+      "review": "perfect for 1 night thx for everything. very easy going!",
+      "image": [
+        "https://a0.muscache.com/im/users/19823656/profile_pic/1431515865/original.jpg?im_w=240"
+      ],
+      "createdAt": 1631590734064,
+      "updatedAt": 1631590734064,
+      "id": 1
+    },
+    {
+      "typeRoomId": 1,
+      "userId": 4,
+      "rating": 4,
+      "title": "very good!",
+      "review": "We enjoyed the stay very much. It is not only for a place to stay a night but to experience the history of hundreds years old house. The service was good too! We got an extra bed for my kid in the room and prepared before we arrive. Really appreciate the hospitality! The breakfast was wonderful as well, there were plenty of choices. We loved it!",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/User-38507332/original/9259b197-c0ef-4fbe-ab18-5c8953d59871.jpeg?im_w=240"
+      ],
+      "createdAt": 1631590734064,
+      "updatedAt": 1631590734064,
+      "id": 2
+    },
+    {
+      "typeRoomId": 1,
+      "userId": 4,
+      "rating": 4,
+      "title": "very good!",
+      "review": "Ideal location for me.",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/3c0190ff-d722-4718-b958-e292cd64d3f5.jpg?im_w=240"
+      ],
+      "createdAt": 1631590734064,
+      "updatedAt": 1631590734064,
+      "id": 3
+    },
+    {
+      "typeRoomId": 2,
+      "userId": 4,
+      "rating": 4.94,
+      "title": "very good!",
+      "review": "This was one of the best of my experiences in Italy. And we would come back again to Turin and stay here if we get the opportunity. It is very close to everything that you need to see in Turin and peaceful as well...",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/54196d46-6c30-455c-beb2-0926baafd61d.jpg?im_w=240"
+      ],
+      "createdAt": 1631618709294,
+      "updatedAt": 1631618709294,
+      "id": 4
+    },
+    {
+      "typeRoomId": 2,
+      "userId": 4,
+      "rating": 4.94,
+      "title": "very good!",
+      "review": "Great apartment with a nice owner.",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/63ef46a6-0be1-403c-926f-7fef976d3470.jpg?im_w=240"
+      ],
+      "createdAt": 1631760098685,
+      "updatedAt": 1631760098685,
+      "id": 5
+    },
+    {
+      "typeRoomId": 3,
+      "userId": 4,
+      "rating": 4,
+      "title": "very good!",
+      "review": "The location was perfect for us, the room and the amenities were exactly what we needed! We will be back again. We even loved the stairs! Thank you!",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/5fc87401-013c-453f-b853-352d2b213b92.jpg?im_w=240"
+      ],
+      "createdAt": 1631865629488,
+      "updatedAt": 1631865629488,
+      "id": 6
+    },
+    {
+      "typeRoomId": 4,
+      "userId": 5,
+      "rating": 4.87,
+      "title": "very good!",
+      "review": "The apartment is very nice and comfortable, a few steps away is the bus and in 20 minutes you are in the center of Milan. The apartment is better than the photos. The area is very good and you can have a very Italian experience in local bars and restaurants.",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/37466127-0caa-42f2-bf4b-87175e321934.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 7
+    },
+    {
+      "typeRoomId": 5,
+      "userId": 5,
+      "rating": 4.94,
+      "title": "very good!",
+      "review": "It's a very cute room and apartement which is at a central location. Besides, the host is very courteous and helpful. It was a pleasure.",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/6edae724-fba6-493b-9473-11f3405697a7.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 8
+    },
+    {
+      "typeRoomId": 6,
+      "userId": 5,
+      "rating": 4.96,
+      "title": "very good!",
+      "review": "It s a lovely place in a lovely village. The barn and room are cosy, beautiful and inspiring. The breakfast was great and the hospitality and friendliness too. We really enjoyed being here!",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/304dda43-535b-4209-a929-7ee4b5b0b476.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 9
+    },
+    {
+      "typeRoomId": 7,
+      "userId": 5,
+      "rating": 4.87,
+      "title": "very good!",
+      "review": "Great host, very cool apartment. Very friendly and welcoming!!",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/dcc10fa6-9508-4ec7-ba95-25ca47df2120.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 10
+    },
+    {
+      "typeRoomId": 8,
+      "userId": 5,
+      "rating": 4.87,
+      "title": "very good!",
+      "review": "Great location, great hosts. There are lots to see within walking distance in Edinburg. Plenty of restaurants and shops. My husband and my son very much enjoyed the breakfast with the hosts in a such a wonderful dining room as well. Highly recommended!",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/a11470d2-dd0d-42ee-ad8a-13150266f1a2.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 11
+    },
+    {
+      "typeRoomId": 9,
+      "userId": 5,
+      "rating": 4.63,
+      "title": "very good!",
+      "review": "Great location, pleasant host, but it isn't worth the money. Too hot in the summer and the quiet hours were not respected",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/f0c2c5f1-f6b6-430a-8dc1-654b525e0b6c.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 12
+    },
+    {
+      "typeRoomId": 10,
+      "userId": 5,
+      "rating": 4.2,
+      "title": "very good!",
+      "review": "Great accommodation, great price, friendly host",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/5bc04630-6ce1-4b8c-8da9-7ba3d173b470.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 13
+    },
+    {
+      "typeRoomId": 11,
+      "userId": 5,
+      "rating": 4.9,
+      "title": "very good!",
+      "review": "A very lovely and responsive host. Didn’t even feel like he was in the apartment most of the time. Very flexible with check-ins and very friendly. The apartment was beautifully decorated and nice and clean.",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/21c96b40-62b8-4032-8ae1-9615014f2d94.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 14
+    },
+    {
+      "typeRoomId": 12,
+      "userId": 5,
+      "rating": 4.58,
+      "title": "very good!",
+      "review": "Central and cool location. We miss some cleanliness and a little more personal communication.",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/fc344bc2-61a1-409b-a59f-8e0e82a54568.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 15
+    },
+    {
+      "typeRoomId": 13,
+      "userId": 5,
+      "rating": 4.84,
+      "title": "very good!",
+      "review": "The hi light was the evening board game , it really exposed our personality’s !!!",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/2b0c2e19-e7dd-4b9d-91bc-6ab051979965.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 16
+    },
+    {
+      "typeRoomId": 14,
+      "userId": 5,
+      "rating": 4.47,
+      "title": "very good!",
+      "review": "The apartment is simple, but comfortable. The position is perfect to explore the town. The assistance of the receptionists is excellent.",
+      "image": [
+        "https://a0.muscache.com/im/users/24960400/profile_pic/1442419874/original.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 17
+    },
+    {
+      "typeRoomId": 15,
+      "userId": 5,
+      "rating": 4.94,
+      "title": "very good!",
+      "review": "Very responsive, also good at English. Went out of his way to bring us more towels without us asking",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/3ea5f12f-792a-40d3-99fb-92b678c81587.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 18
+    },
+    {
+      "typeRoomId": 16,
+      "userId": 5,
+      "rating": 3.5,
+      "title": "very good!",
+      "review": "Very close to the airport. Juan is an outstanding host - one of the best.",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/44a19a69-2e58-4b5c-bd9c-34c6dd64f243.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 19
+    },
+    {
+      "typeRoomId": 17,
+      "userId": 5,
+      "rating": 4.41,
+      "title": "very good!",
+      "review": "Host very available and nice. Place is in a good and well connected area.",
+      "image": [
+        "https://a0.muscache.com/im/users/7764845/profile_pic/1376345191/original.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 20
+    },
+    {
+      "typeRoomId": 18,
+      "userId": 5,
+      "rating": 4.91,
+      "title": "very good!",
+      "review": "excellent welcome. Very friendly host. I recommend it.",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/6d11fa93-e5e2-4b45-992f-c21a3194ffab.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 21
+    },
+    {
+      "typeRoomId": 19,
+      "userId": 5,
+      "rating": 4.85,
+      "title": "very good!",
+      "review": "Great accomodation and perfect for a couple looking for both luxury and privacy. The staff are fantastic, we were looking to hire a scooter and one turned up within 5 minutes. There's a caretaker who works there, he speaks very minimal English but always says good morning and even fixed our bike! Would definitely re-visit!Thank you so much",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/User-386834220/original/36682298-c345-439b-82fa-3b01e51ef175.jpeg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 22
+    },
+    {
+      "typeRoomId": 20,
+      "userId": 5,
+      "rating": 4.7,
+      "title": "very good!",
+      "review": "The place was fabulous and beautiful. It feels like home, or perhaps even better!",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/2cf9cda2-5987-43b8-b6e6-f53e31880f71.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 23
+    },
+    {
+      "typeRoomId": 21,
+      "userId": 5,
+      "rating": 4.63,
+      "title": "very good!",
+      "review": "Great location. Private room. Quiet street near cafes. Wonderful breakfast",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/217ee98b-7ffb-4b8f-b65c-cdd87178a206.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 24
+    },
+    {
+      "typeRoomId": 22,
+      "userId": 5,
+      "rating": 4.85,
+      "title": "very good!",
+      "review": "Beautiful place, awesome location and view! About 15 minutes by car from ferry.",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/4f920ed5-fadc-449a-9afe-cac5f202eacc.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 25
+    },
+    {
+      "typeRoomId": 23,
+      "userId": 5,
+      "rating": 5,
+      "title": "very good!",
+      "review": "This space is great for a centrally located low cost option. You are sleeping in an open place area, with the host sleeping down a hallway and behind a half-wall. Other than this quirk, this apartment is perfect. Really stylish and Redfern is very convenient location for work and exploring Sydney. Bed is comfortable the the host is friendly and welcoming.",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/bf012e8e-c84d-4649-bf52-bd9857cff088.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 26
+    },
+    {
+      "typeRoomId": 24,
+      "userId": 5,
+      "rating": 4.98,
+      "title": "very good!",
+      "review": "We had a lovely time at this property. Neat and well maintained place. Felt like home. Cheers.",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/User-422090282/original/d268f738-b4e1-465b-aec9-8c4ed2c075f6.jpeg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 27
+    },
+    {
+      "typeRoomId": 25,
+      "userId": 5,
+      "rating": 4.86,
+      "title": "very good!",
+      "review": "The service was superb, place is clean and comfy, def will going back!",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/6361f6f7-78da-4b44-90c2-dda402714cbc.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 28
+    },
+    {
+      "typeRoomId": 26,
+      "userId": 5,
+      "rating": 4.86,
+      "title": "very good!",
+      "review": "Very friendly host, location quiet but close to public transport and restaurants, would definitely stay again.",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/7c614d61-0ed6-415f-9b82-37c80eeefd8c.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 29
+    },
+    {
+      "typeRoomId": 27,
+      "userId": 5,
+      "rating": 4.65,
+      "title": "very good!",
+      "review": "perfect place, I also recommend It for longer stays since the house Is equipped with everything",
+      "image": [
+        "https://a0.muscache.com/im/pictures/user/816331dd-bdbe-41ea-9959-c43f74f00662.jpg?im_w=240"
+      ],
+      "createdAt": 1632406940349,
+      "updatedAt": 1632406940349,
+      "id": 30
+    }
+   
+  ],
+  "discounts": [
+    {
+      "id": 1,
+      "name": "SPR-010315",
+      "typeRoomId": 1,
+      "start": 1610643600000,
+      "end": 1614877200000,
+      "createdAt": 1631541812854,
+      "updatedAt": 1631797786141,
+      "value": 8
+    },
+    {
+      "id": 2,
+      "name": "SUM-040620",
+      "typeRoomId": 3,
+      "start": 1622566800000,
+      "end": 1624554000000,
+      "createdAt": 1631541812854,
+      "updatedAt": 1631797745205,
+      "value": 12
+    },
+    {
+      "id": 3,
+      "name": "FAL-070925",
+      "typeRoomId": 2,
+      "start": 1631092999151,
+      "end": 1633626000000,
+      "createdAt": 1631541812854,
+      "updatedAt": 1631797703035,
+      "value": 10
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "",
+      "description": "Everything went very well with check in and the house is in a good location for bus and train transport.",
+      "author": "Thomas",
+      "image": "https://a0.muscache.com/im/pictures/user/e90a87e7-ccbd-41b5-9b7e-1b82a437cc5e.jpg?im_w=240"
+    },
+    {
+      "id": 2,
+      "title": "",
+      "description": "Très bon séjour chez Simone et Alessia, deux hôtes très sympas ! Le logement est confortable et très propre.",
+      "author": "Louise",
+      "image": "https://a0.muscache.com/im/pictures/user/ccf89802-df02-4b20-964f-2b2f46a8940d.jpg?im_w=240"
+    },
+    {
+      "id": 3,
+      "title": "",
+      "description": "Friendly, helpful host. Clean, pleasant modern apartment in a newer part of Nantes but still an easy walk or bike ride to the old city center. The shared balcony off the bedroom is nice for views and breezy fresh air. Five stars!",
+      "author": "Peter",
+      "image": "https://www.airbnb.com.vn/users/show/2880466"
+    },
+    {
+      "id": 4,
+      "title": "",
+      "description": "Great! Close to buses and a safe clean building!",
+      "author": "Liv",
+      "image": "https://a0.muscache.com/im/pictures/user/d86c3143-a9df-4c30-ba81-81a7e6f56472.jpg?im_w=240"
+    },
+    {
+      "id": 5,
+      "title": "",
+      "description": "Nice location: 10 minutes walk from the market & the mall, 15 minutes from the farmers market, 20 minutes from the shopping district. The host is very accommodating and helpful. Charming cats too!",
+      "author": "Ser Xian",
+      "image": "https://a0.muscache.com/im/pictures/user/74dfd67b-b20e-46d7-902f-2cc506b45c69.jpg?im_w=240"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "typeRoomId": 2,
+      "userId": 1,
+      "discountCode": "FAL-070925",
+      "discountPrice": 11,
+      "roomId": 6,
+      "checkOut": 1631093012330,
+      "checkIn": 1631092999151,
+      "price": 123,
+      "total": 120,
+      "status": "pending",
+      "createdAt": 1631541812854,
+      "updatedAt": 1631797703035
+    },
+    {
+      "id": 2,
+      "typeRoomId": 2,
+      "userId": 2,
+      "discountCode": "FAL-070925",
+      "discountPrice": 11,
+      "roomId": 9,
+      "checkOut": 1631093012330,
+      "checkIn": 1631092999151,
+      "price": 123,
+      "total": 120,
+      "status": "pending",
+      "createdAt": 1631541812854,
+      "updatedAt": 1631797703035
+    },
+    {
+      "id": 3,
+      "typeRoomId": 1,
+      "userId": 3,
+      "discountCode": "FAL-070925",
+      "discountPrice": 11,
+      "roomId": 1,
+      "checkOut": 1631898000000,
+      "checkIn": 1631670575925,
+      "price": 123,
+      "total": 120,
+      "status": "pending",
+      "createdAt": 1631541812854,
+      "updatedAt": 1631797703035
+    },
+    {
+      "id": 4,
+      "typeRoomId": 1,
+      "userId": 1,
+      "discountCode": "FAL-070925",
+      "discountPrice": 11,
+      "roomId": 2,
+      "checkOut": 1631898000000,
+      "checkIn": 1631670575925,
+      "price": 123,
+      "total": 120,
+      "status": "pending",
+      "createdAt": 1631541812854,
+      "updatedAt": 1631797703035
+    },
+    {
+      "id": 5,
+      "typeRoomId": 3,
+      "userId": 2,
+      "discountCode": "FAL-070925",
+      "discountPrice": 11,
+      "roomId": 11,
+      "checkOut": 1631898000000,
+      "checkIn": 1631670575925,
+      "price": 123,
+      "total": 120,
+      "status": "pending",
+      "createdAt": 1631541812854,
+      "updatedAt": 1631797703035
+    },
+    {
+      "id": 6,
+      "typeRoomId": 3,
+      "userId": 1,
+      "discountCode": "FAL-070925",
+      "discountPrice": 11,
+      "roomId": 15,
+      "checkOut": 1631898000000,
+      "checkIn": 1631670575925,
+      "price": 123,
+      "total": 120,
+      "status": "pending",
+      "createdAt": 1631541812854,
+      "updatedAt": 1631797703035
+    },
+    {
+      "id": 8,
+      "typeRoomId": 4,
+      "userId": 2,
+      "discountCode": "FAL-070925",
+      "discountPrice": 11,
+      "roomId": 16,
+      "checkOut": 1631898000000,
+      "checkIn": 1631670575925,
+      "price": 123,
+      "total": 120,
+      "status": "pending",
+      "createdAt": 1631541812854,
+      "updatedAt": 1631797703035
+    },
+    {
+      "typeRoomId": 3,
+      "userId": 5,
+      "discountCode": "SPR-010315",
+      "discountPrice": 8,
+      "roomId": 11,
+      "checkOut": 1633107600000,
+      "checkIn": 1632502800000,
+      "numberNight": 7,
+      "price": 489,
+      "total": 3471.9,
+      "status": "canceled",
+      "id": 12,
+      "updatedAt": 1632497812708
+    },
+    {
+      "typeRoomId": 1,
+      "userId": 5,
+      "discountCode": "SUM-040620",
+      "discountPrice": 12,
+      "roomId": 1,
+      "checkOut": 1633107600000,
+      "checkIn": 1632502800000,
+      "numberNight": 7,
+      "price": 299,
+      "total": 1868.152,
+      "status": "pending",
+      "id": 13
+    },
+    {
+      "typeRoomId": 2,
+      "userId": 5,
+      "discountCode": "SPR-010315",
+      "discountPrice": 8,
+      "roomId": 6,
+      "checkOut": 1633107600000,
+      "checkIn": 1632934800000,
+      "numberNight": 2,
+      "price": 349,
+      "total": 674.268,
+      "status": "canceled",
+      "id": 14,
+      "updatedAt": 1632500045625
+    },
+    {
+      "typeRoomId": 4,
+      "userId": 5,
+      "discountCode": "FAL-070925",
+      "discountPrice": 10,
+      "roomId": 16,
+      "checkOut": 1633107600000,
+      "checkIn": 1632589200000,
+      "numberNight": 6,
+      "price": 519,
+      "total": 2849.31,
+      "status": "canceled",
+      "id": 15,
+      "updatedAt": 1632500101510
+    },
+    {
+      "typeRoomId": 1,
+      "userId": 5,
+      "discountCode": "SUM-040620",
+      "discountPrice": 12,
+      "roomId": 2,
+      "checkOut": 1633107600000,
+      "checkIn": 1632502800000,
+      "numberNight": 7,
+      "price": 299,
+      "total": 1868.152,
+      "status": "pending",
+      "id": 16
+    },
+    {
+      "typeRoomId": 1,
+      "userId": 3,
+      "checkIn": "09/05/2023",
+      "checkOut": "09/07/2023",
+      "numberNight": "2",
+      "status": "pending",
+      "price": 804,
+      "createdAt": 1693919377129,
+      "updatedAt": 1693919377129,
+      "id": 17
+    },
+    {
+      "typeRoomId": 1,
+      "userId": 3,
+      "checkIn": "09/05/2023",
+      "checkOut": "09/07/2023",
+      "numberNight": "2",
+      "status": "pending",
+      "price": 804,
+      "createdAt": 1693919549019,
+      "updatedAt": 1693919549019,
+      "id": 18
+    },
+    {
+      "typeRoomId": 1,
+      "userId": 3,
+      "checkIn": "09/05/2023",
+      "checkOut": "09/07/2023",
+      "numberNight": "2",
+      "status": "pending",
+      "price": 804,
+      "createdAt": 1693919704159,
+      "updatedAt": 1693919704159,
+      "id": 19
+    }
+  ]
+}
