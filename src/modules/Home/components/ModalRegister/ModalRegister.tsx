@@ -2,20 +2,20 @@ import ModalCustom from "../../../../components/ModalCustom/ModalCustom";
 import Register from "../../../Register/Register";
 
 interface IProps {
-  isOpen: boolean;
-  setIsOpen: (_is: boolean) => void;
+  isOpenRegister: boolean;
+  setIsOpenRegister: (_is: boolean) => void;
 }
-function ModalRegister({ isOpen, setIsOpen }: IProps) {
+function ModalRegister({ isOpenRegister, setIsOpenRegister }: IProps) {
   return (
     <ModalCustom
-      title="Log in or sign up"
-      isOpen={isOpen}
-      setIsOpen={setIsOpen}
+      title="REGISTER - ĐĂNG KÝ"
+      isOpen={isOpenRegister}
+      setIsOpen={setIsOpenRegister}
       footer={<></>}
     >
       <>
-        <Register setIsOpen={setIsOpen} />
-        <div style={{ height: 600 }}></div>
+        <Register setIsOpen={setIsOpenRegister} />
+        
       </>
     </ModalCustom>
   );

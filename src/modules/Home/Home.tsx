@@ -1,26 +1,50 @@
-import { Navigate } from "react-router-dom";
-import { SITE_MAP } from "../../constants/site-map";
-import { useGetTypeRoomsQuery } from "../../services/roomService";
+import { useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import Card from "../../components/Card/Card";
-
+import { useGetTypeRoomsQuery } from "../../services/roomService";
+import { Room } from "../../types/room";
+import ModalSearch from "./components/ModalSearch/ModalSearch";
 function Home() {
-  const token = localStorage.getItem("token");
+  const [searchParams] = useSearchParams();
+  const categoryParam = searchParams.get("category");
 
-  if (token) {
-    const { data } = useGetTypeRoomsQuery();
+  const { data } = useGetTypeRoomsQuery();
+  const [searchResults, setSearchResults] = useState<Room[]>([]);
+  const [isOpen, setIsOpen] = useState(false);
 
-    console.log(data);
+  const filteredData = categoryParam
+    ? data?.filter((card) => card.category === categoryParam)
+    : data;
 
-    return (
-      <div className="max-w-[2520px] mx-auto xl:px-10 md:px-10 sm:px-2 px-4 grid grid-cols-5 gap-4">
-        {data?.map((card) => (
-          <Card key={card.id} card={card} />
-        ))}
-      </div>
-    );
-  } else {
-    return <Navigate to={SITE_MAP.LOGIN.url} replace={true} />;
-  }
+  const handleSearch = (results: Room[]) => {
+    console.log("results",results);
+    setSearchResults(results);
+  };
+ 
+
+  return (
+    <div className="max-w-[2520px] mx-auto xl:px-10 md:px-10 sm:px-2 px-4 grid grid-cols-5 gap-4">
+      <ModalSearch
+        isOpen={isOpen}
+        setIsOpen={setIsOpen}
+        onSearch={handleSearch}
+      />
+      {searchResults.length > 0 && (
+        <div>
+          <h2>Search Results:</h2>
+          <div className="grid grid-cols-5 gap-4">
+            {searchResults.map((result) => (
+              <Card key={result.id} card={result} />
+            ))}
+          </div>
+        </div>
+      )}
+      {/*  */}
+      {filteredData?.map((card) => (
+        <Card key={card.id} card={card} />
+      ))}
+    </div>
+  );
 }
 
 export default Home;

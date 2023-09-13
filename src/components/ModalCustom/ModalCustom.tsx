@@ -23,6 +23,7 @@ function ModalCustom(props: IProps) {
 
 export default ModalCustom;
 const ModalStyle = styled(Modal)`
+
   .ant-modal-content {
     border-radius: 15px;
     padding: 0;
@@ -36,6 +37,8 @@ const ModalStyle = styled(Modal)`
   .ant-modal-body {
     height: 50vh;
     overflow-y: auto;
+    width:100%;
+    overflow-x: hidden;
   }
   .ant-modal-close {
     left: 10px;

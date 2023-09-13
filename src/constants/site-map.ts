@@ -30,6 +30,22 @@ export const SITE_MAP: SiteMap = {
     url: "/category",
     title: "Category",
   },
+  TYPEROOM:{
+    url: "/detail/typeroom/:id",
+    title: "Typeroom",
+  },
+  BOOKING: {
+    url: "/booking/typeroom/:id",
+    title: "booking",
+  },
+  HISTORY: {
+    url: "/history",
+    title: "history",
+  },
+  ACCOUNT: {
+    url: "/account",
+    title: "account",
+  },
   ADMIN: {
     url: "/admin",
     title: "Admin",
